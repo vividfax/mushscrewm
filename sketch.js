@@ -41,6 +41,8 @@ function setup() {
 
 function draw() {
 
+    moveMouse();
+
     push();
     translate(width/2, height/2);
 
@@ -59,7 +61,7 @@ function draw() {
     pop();
 }
 
-function mousePressed() {
+function moveMouse() {
 
     for (let i = 0; i < mushscrewms.length; i++) {
         mushscrewms[i].hovering();
