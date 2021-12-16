@@ -24,7 +24,7 @@ function setup() {
 
     createCanvas(1280, 692);
     imageMode(CENTER);
-    frameRate(6);
+    frameRate(5);
 
     mushscrewms.push(new Mushscrewm(200, 230, 0.3));
     mushscrewms.push(new Mushscrewm(-100, 230, 0.3));
